@@ -1,6 +1,6 @@
 # Welcome to the Nittany AI Tech Team Repository!
 
-![Nittany AI Alliance Logo]()
+![Nittany AI Alliance Logo](JPM2002/Tech-Team---Nittany-Ai/Images/nittany_ai_logo.jpeg)
 
 ## About This Repository
 
