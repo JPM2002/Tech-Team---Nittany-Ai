@@ -1,12 +1,13 @@
 
-# Digit Recognition with PyTorch
+# Digit Recognition with PyTorch (or Tensorflow)
 
 ## Overview
-The goal of this project is to build a neural network that is able to classify handwritten digits. For example, if shown a picture of a handwritten "4", the neural network should be able to identify the image as a "4". This project is a great way to get experience not only with very common deep learning frameworks, but also to get a much better understanding of deep learning as a whole. 
+The goal of this project is to build a neural network that is able to classify handwritten digits. For example, if shown a picture of a handwritten "4", the neural network should be able to identify the image as a the digit "4". This project is a great way to get experience not only with very common deep learning frameworks, but also to get a much better understanding of deep learning as a whole.
+
 ### By completing this project you will learn:
 1. **Pytorch**: How it works and how to use it
 	* This is one of the most desired skills from recruiters in machine learning
-	* Suggested from **Lockheed Martin**
+	* Suggested skill directly from **Lockheed Martin**
 2. **Neural Networks**
 	* Neural Networks are the basis of all modern deep learning applications
 	* Understanding neural networks is the first step in breaking into Artificial Intelligence
@@ -25,6 +26,7 @@ If you ever get stuck there are endless amounts of resources online (and in this
 2. Follow along with a tutorial (if you want)
 	* PyTorch has a decently steep learning curve, so following along with a tutorial is a good way to get your feet under you. Just make sure you have a good understanding of whats going on!
 	* This video does a good job of walking you through everything: https://www.youtube.com/watch?v=vBlO87ZAiiw&t=0s&ab_channel=NeuralNine
+	* If you would rather use Tensorflow (which is a lot easier, but isn't used it industry very often), this video does a good job of walking through the steps: https://www.youtube.com/watch?v=wQ8BIBpya2k&list=PLQVvvaa0QuDfhTox0AjmQ6tvTgMBZBEXN This guy has a ton of great videos besides this one. I would recommend checking them out if you're interested!
 
 ## PyTorch Basics
 
@@ -53,3 +55,12 @@ Creating a machine learning model can be thought of in terms of 3 steps:
 	* https://www.youtube.com/watch?v=vBlO87ZAiiw&ab_channel=NeuralNine
 	* https://www.youtube.com/watch?v=gBw0u_5u0qU&t=0s&ab_channel=Mr.PSolver
 	* https://www.youtube.com/watch?v=ijaT8HuCtIY&t=0s&ab_channel=KrishnaRamesh
+
+
+## Requirements for the project:
+* If your doing the MNIST classificatin OR Dogs and Cats classification with either PyTorch or Tensorflow, you should have these things in your notebook:
+	* At least one visualization of an example digit (so just displaying one of the digits from the dataset)
+	* Print some of your models predictions with "model.predict(x_test)", or print the performance with "model.score(x_test, y_test)
+* If you're doing the Nueural Network from scratch you should have these things in your code(you're badass btw):
+	* Implementation of a forward pass (data following forward through the network)
+	* Implementation of gradient decent (model weights being updated throughout the network, sometimes called a "backward pass")
