@@ -1,4 +1,5 @@
 ## Technical Interview Information
+Here's the link to sign up for a slot if you haven't already: **https://www.signupgenius.com/go/805044EA9AB22A4F94-53255450-technical**
 
 ### General Overview
 The technical interview will be about 5 min consisting of 3-4 questions from material covered in the Machine Learning Bootcamp this semester. The questions could be from any of the 4 section covered in the MLB: White box models, Neural Networks, Fine Tuning, or RAG. You won't be asked to code anything during the interview.
