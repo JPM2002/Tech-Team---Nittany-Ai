@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Submit Your Text</h1>
+    <form action="/submit" method="post">
+        <input type="text" name="text" placeholder="Enter your text here" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Live Updates</h2>
+    <ul id="messages"></ul>
+
+    <script>
+        const socket = io();
+        socket.on('new_message', (data) => {
+            const messagesList = document.getElementById('messages');
+            const newMessage = document.createElement('li');
+            newMessage.textContent = data.text;
+            messagesList.appendChild(newMessage);
+        });
+    </script>
+</body>
+</html>
