@@ -4,7 +4,7 @@
 
 ## About This Repository
  
-This repository is your go-to resource for everything related to AI development within the Nittany AI Studen Society. Here, we strive to share our knowledge, projects, and innovations to foster learning and collaboration. Below, you'll find a brief overview of what's available:
+This repository is your go-to resource for everything related to AI development within the Nittany AI Studen Society. Here, we strive to share our knowledge, projects, and innovations to foster learning and collaboration. Below, you'll find a brief overview  of what's available:
 
 ### 📚 Past Projects Documentation
 
